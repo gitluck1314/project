@@ -1,0 +1,609 @@
+<div class="card">
+  <div id="carousel-example-generic" class="ms-carousel carousel slide" data-ride="carousel"
+       style="position: relative;display: block;background-color: rgb(229, 234, 241);width: 1200px;height:340px;padding: 0 auto;padding-bottom: 30px;">
+
+
+    <!-- 指示符 -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+    </ol>
+
+    <!-- 轮播图片 -->
+    <div class="carousel-inner" role="listbox" style="display: block;width:1200px;height: 310px;z-index: 10;">
+      <div class="carousel-item active" style="width:1184px;height: 310px;margin: 0 auto;">
+        <img class="d-block img-fluid" src="http://www.hebeu.edu.cn/banner/banner_03.jpg"
+             style="width:1184px;height: 310px;" alt="主校图书馆">
+        <div class="carousel-caption">
+          <!--<h5 style="vertical-align: inherit;vertical-align: inherit;">主校图书馆</h5>-->
+        </div>
+      </div>
+      <div class="carousel-item " style="width:1184px;height: 310px;margin: 0 auto;">
+        <img class="d-block img-fluid" src="http://ww3.sinaimg.cn/large/0060lm7Tly1fjrl5d9qouj31120q3n1e.jpg" alt="南门">
+        <div class="carousel-caption">
+          <!--<h5 style="vertical-align: inherit;vertical-align: inherit;">南门</h5>-->
+        </div>
+      </div>
+      <div class="carousel-item" style="width:1184px;height: 310px;margin: 0 auto;">
+        <img class="d-block img-fluid" src="http://www.hebeu.edu.cn/banner/banner_02.jpg" alt="西校">
+        <div class="carousel-caption">
+          <!--<h5 style="vertical-align: inherit;vertical-align: inherit;">西校</h5>-->
+        </div>
+      </div>
+      <!-- 左右切换按钮 -->
+      <a href="#carousel-example-generic"
+         class="btn-circle btn-circle-xs btn-circle-raised btn-circle-primary left carousel-control-prev" role="button"
+         data-slide="prev" style="z-index: 10;">
+        <i class="zmdi zmdi-chevron-left"></i>
+      </a>
+      <a href="#carousel-example-generic"
+         class="btn-circle btn-circle-xs btn-circle-raised btn-circle-primary right carousel-control-next" role="button"
+         data-slide="next" style="z-index: 10;">
+        <i class="zmdi zmdi-chevron-right"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+  <!--<div id="demo" class="carousel slide" data-ride="carousel"-->
+  <!--style="position: relative;display: block;background-color: rgb(229, 234, 241);width: 1200px;height:340px;padding: 0 auto;padding-bottom: 30px;">-->
+
+  <!--&lt;!&ndash; 指示符 &ndash;&gt;-->
+  <!--<ul class="carousel-indicators">-->
+  <!--<li data-target="#demo" data-slide-to="0" class="active"></li>-->
+  <!--<li data-target="#demo" data-slide-to="1"></li>-->
+  <!--<li data-target="#demo" data-slide-to="2"></li>-->
+  <!--</ul>-->
+
+  <!--&lt;!&ndash; 轮播图片 &ndash;&gt;-->
+  <!--<div class="carousel-inner" style="display: block;width:1200px;height: 310px;z-index: 10;">-->
+
+  <!--&lt;!&ndash;图书馆&ndash;&gt;-->
+  <!--<div class="carousel-item active" style="width:1184px;height: 310px;margin: 0 auto;">-->
+  <!--<img src="http://www.hebeu.edu.cn/banner/banner_03.jpg" style="width:1184px;height: 310px;">-->
+  <!--</div>-->
+
+  <!--&lt;!&ndash;南门&ndash;&gt;-->
+  <!--<div class="carousel-item " style="width:1184px;height: 310px;margin: 0 auto;">-->
+  <!--<img src="http://ww3.sinaimg.cn/large/0060lm7Tly1fjrl5d9qouj31120q3n1e.jpg"-->
+  <!--style="width:1184px;height: 310px;">-->
+  <!--</div>-->
+
+  <!--&lt;!&ndash;西校&ndash;&gt;-->
+  <!--<div class="carousel-item" style="width:1184px;height: 310px;margin: 0 auto;">-->
+  <!--<img src="http://www.hebeu.edu.cn/banner/banner_02.jpg" style="width:1184px;height: 310px;">-->
+  <!--</div>-->
+
+  <!--</div>-->
+  <!--&lt;!&ndash; 左右切换按钮 &ndash;&gt;-->
+  <!--<a class="carousel-control-prev" href="#demo" data-slide="prev" style="z-index: 10;">-->
+  <!--<span class="carousel-control-prev-icon"></span>-->
+  <!--</a>-->
+  <!--<a class="carousel-control-next" href="#demo" data-slide="next" style="z-index: 10;">-->
+  <!--<span class="carousel-control-next-icon"></span>-->
+  <!--</a>-->
+
+  <!--</div>-->
+
+  <!--时间,通道，搜索-->
+  <section style="background-color: rgb(229, 234, 241);width: 1200px;height: 170px;padding-bottom: 5px;">
+    <table cellpadding="0" cellspacing="0" id="time_function" style="width: 1200px;height: 165px;">
+      <tbody>
+      <tr>
+        <!--快捷通道-->
+        <td id="kuaijie" style="width: 280px;height: 155px;padding-left: 10px;">
+          <div class="card card-primary"
+               style="width: 280px;height: 155px;padding-left: 8px;background-color: rgba(255,255,255,0.6);">
+            <div class="card-header" style="background-color: rgba(7,180,185,0.91);height: 40px;padding-left: 8px;">
+              <a href="" class="card-title" target="_blank" style="font-size: 20px; color: #971f3c">快捷通道</a>
+            </div>
+
+            <div class="card-block" style="font-size: 14px;">
+              <ul>
+                <li>
+                  <a href="list.aspx?coltag=pykcsz" target="_blank"> ☆&nbsp;课程设置</a>&nbsp;&nbsp;&nbsp;
+                  <a href="list.aspx?coltag=pykbcx" target="_blank">☆&nbsp;课表查询</a>
+                </li>
+                <li>
+                  <a href="list.aspx?coltag=xwdsdw" target="_blank">☆&nbsp;导师队伍</a>&nbsp;&nbsp;&nbsp;
+                  <a href="info.aspx?id=108" target="_blank">☆&nbsp;在学学籍证明</a>
+                </li>
+                <li>
+                  <a href="http://www.hebeu.edu.cn/" target="_blank">☆&nbsp;学校主页</a>&nbsp;&nbsp;&nbsp;
+                  <a href="http://library.hebeu.edu.cn/web/index.aspx" target="_blank">☆&nbsp;图书馆</a>
+
+                </li>
+                <li>
+                  <a href="http://www.baidu.com" target="_blank">☆&nbsp;百度</a>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a href="http://www.google.cn/" target="_blank">☆&nbsp;google</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </td>
+
+        <!--时间-->
+        <td id="time"
+            style="width:595px;height: 155px;padding-left: 0px;padding-right: 0px;margin-right: 0px;margin-left: 0px;">
+          <div class="container" style="width:595px;height: 155px;padding-left: 0px;">
+            <div class="mdui-card" style="width:595px;height: 155px;">
+              <div class="mdui-card-media">
+                <img src="http://img0.imgtn.bdimg.com/it/u=655867247,1480008367&fm=27&gp=0.jpg"
+                     style="width:595px;height: 155px;padding-left: 0px;padding-right: 0px"/>
+                <div class="mdui-card-media-covered" style="width:595px;height: 60px;">
+                  <div class="mdui-card-primary">
+                    <div id="jnkc" style="font-family: 新宋体;font-size: 18px;font-weight: 300;text-align: center;"></div>
+                    <script>
+                      setInterval("jnkc.innerHTML=new Date().toLocaleString()+'星期'+'日一二三四五六'.charAt(new Date().getDay());", 1000)
+                    </script>
+                        
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
+        <!--搜索-->
+        <td id="function" style="width: 280px;height: 155px;padding-right: 8px;">
+          <div class="card card-primary" style="width: 280px;height: 155px;">
+            <div class="card-block text-center" style="background-color: #fffff1">
+              <!--搜索-->
+              <div class="mdui-textfield mdui-textfield-expandable mdui-float-right">
+                <button class="mdui-textfield-icon mdui-btn mdui-btn-icon">
+                  <i class="mdui-icon material-icons">search</i>
+                </button>
+                <input class="mdui-textfield-input ng-pristine ng-valid ng-empty ng-touched" type="text"
+                       placeholder="站内搜索" ng-model="search" aria-invalid="false" style="">
+                <button class="mdui-textfield-close mdui-btn mdui-btn-icon">
+                  <i class="mdui-icon material-icons">close</i>
+                </button>
+              </div>
+              <br>
+
+              <!--按钮连接-->
+              <a href="http://202.206.162.165/login/login.aspx" target="_blank" class="btn btn-info" type="button"
+                 style="width: 279px;height: 38px;text-align: center;font-size: 15px;">研究生综合业务管理系统</a><br>
+              <a href="http://yanjs.hebeu.edu.cn/oldweb/meeting/index.html" target="_blank" class="btn btn-info"
+                 type="button" style="width: 279px;height: 38px;text-align: center;font-size: 15px;">研究生国际会议</a><br>
+              <a href="" target="_blank" class="btn btn-info" type="button"
+                 style="width: 279px;height: 38px;text-align: center;font-size: 15px;">学术论坛</a>
+
+            </div>
+          </div>
+        </td>
+
+      </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!--新闻公告-->
+  <section style="background-color: rgb(229, 234, 241);width: 1200px;height: 330px;padding-bottom: 10px;">
+    <table cellpadding="0" cellspacing="0" style="width: 1200px;height: 320px;">
+      <tbody>
+      <tr>
+
+        <!--热点新闻-->
+        <td id="new" style="width: 280px;height: 300px;padding-left: 10px;">
+          <div class="card card-primary"
+               style="width: 280px;height: 300px;padding-left: 8px;background-color: rgba(255,255,255,0.6);">
+
+            <div class="card-header" style="background-color: rgba(7,180,185,0.91);height: 40px;">
+              <a href="" class="card-title" target="_blank" style="font-size: 20px; color: #971f3c">热点新闻</a>
+            </div>
+
+            <div class="card-block" style="border-color: #6F8C9C;font-size: 14px;color: black;">
+              <marquee onmouseover="this.stop()" onmouseout="this.start()" scrollamount="1" scrolldelay="7"
+                       direction="up"
+                       loop="-1" height="200" width="250">
+                <ul>
+                  <li
+                    style="padding-left: 3px;padding-right: 3px; height:30px; line-height:30px; border-bottom:1px dashed #ccc;">
+                    <a href="" target="_blank" title="教育部关于印发《2017年全国硕士研究生招生工作管理规定》的通知">教育部关于印发《2017年全国...</a>
+                  </li>
+                </ul>
+              </marquee>
+            </div>
+          </div>
+        </td>
+
+        <!--公告通知-->
+        <td style="width: 890px;height: 300px;padding-left: 10px;padding-right: 10px">
+          <div class="card card-primary"
+               style="width: 890px;height: 300px;padding-left: 8px;background-color: rgba(255,255,255,0.6);">
+            <div class="card-header"
+                 style="background-color: rgba(7,180,185,0.91);height: 40px;padding-left: 8px;text-align: left">
+              <a href="" class="card-title" target="_blank" style="font-size: 20px; color: #971f3c">公告通知</a>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <span><a href="" class="more" target="_blank"
+                       style="font-size: 15px; color:#ffffff;float: right;text-align: center">  <<&nbsp;更多 </a></span>
+            </div>
+
+            <div class="card-block" style="border-color: #6F8C9C;font-size: 14px;color: black;padding-left: 10px;">
+              <ul>
+
+                <li style="padding-left: 3px;padding-right: 3px; height:25px; line-height:30px;">
+                  <a href="" style="cursor:pointer" target="_blank" title="关于2018年全国硕士生招生考试成绩公布与复查的通知">
+                    <span class="talke_span">*&nbsp;&nbsp;关于2018年全国硕士生招生考试成绩公布与复查的通知</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;2018-01-13</span>
+                  </a>
+                </li>
+
+                <li style="padding-left: 3px;padding-right: 3px; height:25px; line-height:30px;">
+                  <a href="" style="cursor:pointer" target="_blank" title="2018年春季博士研究生申请博士学位相关工作安排">
+                    <span class="talke_span">*&nbsp;&nbsp;2018年春季博士研究生申请博士学位相关工作安排</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;2018-01-21</span>
+                  </a>
+                </li>
+
+                <li style="padding-left: 3px;padding-right: 3px; height:25px; line-height:30px;">
+                  <a href="" style="cursor:pointer" target="_blank" title="关于做好2018年春季博士学位论文预答辩工作的通知">
+                    <span class="talke_span">*&nbsp;&nbsp;关于做好2018年春季博士学位论文预答辩工作的通知</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;2018-01-21</span>
+                  </a>
+                </li>
+
+                <li style="padding-left: 3px;padding-right: 3px; height:25px; line-height:30px;">
+                  <a href="" style="cursor:pointer" target="_blank" title="2018年春季在职人员申请硕士学位相关工作安排">
+                    <span class="talke_span">*&nbsp;&nbsp;2018年春季在职人员申请硕士学位相关工作安排</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;2018-01-21</span>
+                  </a>
+                </li>
+
+                <li style="padding-left: 3px;padding-right: 3px; height:25px; line-height:30px;">
+                  <a href="" style="cursor:pointer" target="_blank" title="2018年春季全日制研究生申请硕士学位相关工作安排">
+                    <span class="talke_span">*&nbsp;&nbsp;2018年春季全日制研究生申请硕士学位相关工作安排</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;2018-01-21</span>
+                  </a>
+                </li>
+
+                <li style="padding-left: 3px;padding-right: 3px; height:25px; line-height:30px;">
+                  <a href="" style="cursor:pointer" target="_blank" title="2018年校级优秀硕士学位论文（专业学位）公告">
+                    <span class="talke_span">*&nbsp;&nbsp;2018年校级优秀硕士学位论文（专业学位）公告</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;2018-01-17</span>
+                  </a>
+                </li>
+
+                <li style="padding-left: 3px;padding-right: 3px; height:25px; line-height:30px;">
+                  <a href="" style="cursor:pointer" target="_blank" title="2018年1月授予学位公告">
+                    <span class="talke_span">*&nbsp;&nbsp;2018年1月授予学位公告</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;2018-01-17</span>
+                  </a>
+                </li>
+
+                <li style="padding-left: 3px;padding-right: 3px; height:25px; line-height:30px;">
+                  <a href="" style="cursor:pointer" target="_blank" title="2017级联合培养研究生考试通知">
+                    <span class="talke_span">*&nbsp;&nbsp;2017级联合培养研究生考试通知</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;2018-01-10</span>
+                  </a>
+                </li>
+
+                <li style="padding-left: 3px;padding-right: 3px; height:25px; line-height:30px;">
+                  <a href="" style="cursor:pointer" target="_blank" title="2017级学硕《数理统计》科目考试通知">
+                    <span class="talke_span">*&nbsp;&nbsp;2017级学硕《数理统计》科目考试通知</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;2018-01-03</span>
+                  </a>
+                </li>
+
+                <!--<li style="padding-left: 3px;padding-right: 3px; height:25px; line-height:30px;">-->
+                <!--<a href="" style="cursor:pointer" target="_blank" title="2017级专硕《数理统计》科目考试通知">-->
+                <!--<span class="talke_span">*&nbsp;&nbsp;2017级专硕《数理统计》科目考试通知</span>-->
+                <!--<span>&nbsp;&nbsp;&nbsp;&nbsp;2018-01-03</span>-->
+                <!--</a>-->
+                <!--</li>-->
+
+                <!--<li style="padding-left: 3px;padding-right: 3px; height:25px; line-height:30px;">-->
+                <!--<a href="" style="cursor:pointer" target="_blank" title="2017级学硕《数值分析》科目考试通知">-->
+                <!--<span class="talke_span">*&nbsp;&nbsp;2017级学硕《数值分析》科目考试通知</span>-->
+                <!--<span>&nbsp;&nbsp;&nbsp;&nbsp;2018-01-03</span>-->
+                <!--</a>-->
+                <!--</li>-->
+
+              </ul>
+            </div>
+
+          </div>
+        </td>
+
+      </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!--动态-->
+  <section
+    style="background-color: rgb(229, 234, 241);z-index: 10;padding-left: 10px;width: 1200px;height: 320px;padding-bottom: 20px;">
+    <table cellpadding="0" cellspacing="0" style="width: 1200px;height: 300px;padding-left: 8px;">
+      <tbody>
+      <tr>
+        <!--连接-->
+        <td>
+          <!-- Single button -->
+          <div class="btn-group" style="width: 280px;height: 35px;padding-left: 8px;">
+            <button type="button" class="btn btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false" style="width: 280px;height: 35px;font-size: 18px;">
+              培&nbsp;训&nbsp;基&nbsp;地&nbsp;&nbsp;<i class="zmdi zmdi-chevron-down right"></i>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-info" style="font-size: 16px;">
+              <li class="dropdown-header">培训基地</li>
+              <li><a class="dropdown-item" href="http://www.jznyjt.com/">冀中能源集团有限公司</a></li>
+              <li><a class="dropdown-item" href="http://www.zmja.com/">中煤建筑安装工程集团有限公司</a></li>
+              <li><a class="dropdown-item" href="http://www.zhsyj.org.cn/">水利部综合事业局</a></li>
+              <!--<li role="separator" class="dropdown-divider"></li>-->
+              <li><a class="dropdown-item" href="http://www.zmhdsj.com/">中煤邯郸设计工程有限责任公司</a></li>
+            </ul>
+          </div>
+          <br> <br>
+          <!-- Single button -->
+          <div class="btn-group" style="width: 280px;height: 35px;padding-left: 8px;">
+            <button type="button" class="btn btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false" style="width: 280px;height: 35px;font-size: 18px;">
+              常&nbsp;用&nbsp;链&nbsp;接&nbsp;&nbsp;<i class="zmdi zmdi-chevron-down right"></i>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-info" style="font-size: 16px;">
+              <li class="dropdown-header">常用链接</li>
+              <li><a class="dropdown-item" href="http://xwb.hee.cn">河北省人民政府学位委员会办公室</a></li>
+              <li><a class="dropdown-item" href="http://yz.chsi.com.cn/">中国研究生招生信息网</a></li>
+              <li><a class="dropdown-item" href="http://www.cdgdc.edu.cn/">中国学位与研究生教育信息网</a></li>
+              <li><a class="dropdown-item" href="http://www.chsi.com.cn">中国高等教育学生信息网</a></li>
+              <li><a class="dropdown-item" href="http://www.chinadegrees.cn/cqva/gateway.html">学位网|中国学位与教育文凭认证</a></li>
+              <li><a class="dropdown-item" href="http://www.chinadegrees.com.cn">学位网|学位查询</a></li>
+              <li><a class="dropdown-item" href="http://ccc.chinadegrees.com.cn/index/enterIndex.do">中国专业学位教学案例中心</a>
+              </li>
+              <li><a class="dropdown-item" href="http://www.meng.edu.cn/">全国工程专业学位研究生教育网</a></li>
+              <li><a class="dropdown-item" href="http://graschool.bjmu.edu.cn/medical/index.html">全国医学专业学位教育指导委员会秘书处</a>
+              </li>
+              <li><a class="dropdown-item" href="http://www.chinadegrees.cn/">全国学位与研究生教育质量信息平台</a></li>
+            </ul>
+          </div>
+        </td>
+
+        <td>
+          <div class="card card-primary"
+               style="width: 890px;height: 300px;padding-left: 10px;background-color: rgba(255,255,255,0.6);">
+            <div class="card-header"
+                 style="background-color: rgba(7,180,185,0.91);height: 40px;padding-left: 8px;text-align: left">
+              <a href="" class="card-title" target="_blank" style="font-size: 20px; color: #971f3c">工作动态</a>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <span><a href="" class="more" target="_blank" style="font-size: 15px; color:#ffffff;float: right;">  <<&nbsp;更多 </a></span>
+            </div>
+
+            <div class="card-block" style="border-color: #6F8C9C;font-size: 14px;color: black;padding-left: 10px;">
+              <ul>
+                <li style=" height:25px; line-height:30px;">
+                  <a href="" style="cursor:pointer" target="_blank" title="研究生部理论学习中心组（扩大）召开2018年第一次学习会">
+                    <span class="talke_span">*&nbsp;&nbsp;研究生部理论学习中心组（扩大）召开2018年第一次学习会</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;2018-01-23</span>
+                  </a>
+                </li>
+
+                <li style=" height:25px; line-height:30px;">
+                  <a href="" style="cursor:pointer" target="_blank" title="我校举办第三届BIM施工管理沙盘及软件应用大赛">
+                    <span class="talke_span">*&nbsp;&nbsp;我校举办第三届BIM施工管理沙盘及软件应用大赛.</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;2018-01-21</span>
+                  </a>
+                </li>
+
+                <li style="height:25px; line-height:30px;">
+                  <a href="" style="cursor:pointer" target="_blank" title="我校3篇硕士学位论文被批准为2015/2016学年度河北省优秀硕士学位论文">
+                    <span class="talke_span">*&nbsp;&nbsp;我校3篇硕士学位论文被批准为2015/2016学年度河北省优秀硕士学位论文</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;2018-01-19</span>
+                  </a>
+                </li>
+
+                <li style=" height:25px; line-height:30px;">
+                  <a href="" style="cursor:pointer" target="_blank" title="我校召开第四届学位评定委员会第三次全体会议">
+                    <span class="talke_span">*&nbsp;&nbsp;我校召开第四届学位评定委员会第三次全体会议</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;2018-01-23</span>
+                  </a>
+                </li>
+
+                <li style=" height:25px; line-height:30px;">
+                  <a href="" style="cursor:pointer" target="_blank" title="我校服务国家特殊需要博士人才培养项目实施指导委员会召开第三次全体会议">
+                    <span class="talke_span">*&nbsp;&nbsp;我校服务国家特殊需要博士人才培养项目实施指导委员会召开第三次全体会议</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;2018-01-21</span>
+                  </a>
+                </li>
+
+                <li style="height:25px; line-height:30px;">
+                  <a href="" style="cursor:pointer" target="_blank" title="我校召开结构工程等三个硕士学位授权点合格评估会">
+                    <span class="talke_span">*&nbsp;&nbsp;我校召开结构工程等三个硕士学位授权点合格评估会</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;2018-01-19</span>
+                  </a>
+                </li>
+
+                <li style=" height:25px; line-height:30px;">
+                  <a href="" style="cursor:pointer" target="_blank" title="我校召开建筑学一级学科硕士学位授权点合格评估会">
+                    <span class="talke_span">*&nbsp;&nbsp;我校召开建筑学一级学科硕士学位授权点合格评估会</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;2018-01-23</span>
+                  </a>
+                </li>
+
+                <li style=" height:25px; line-height:30px;">
+                  <a href="" style="cursor:pointer" target="_blank" title="我校召开矿业工程一级学科和矿业工程领域两个硕士学位授权点合格评估专家评审会">
+                    <span class="talke_span">*&nbsp;&nbsp;我校召开矿业工程一级学科和矿业工程领域两个硕士学位授权点合格评估专家评审会</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;2018-01-21</span>
+                  </a>
+                </li>
+
+                <li style="height:25px; line-height:30px;">
+                  <a href="" style="cursor:pointer" target="_blank" title="我校召开地质资源与地质工程学科、地质工程领域两个硕士学位授权点合格评估会">
+                    <span class="talke_span">*&nbsp;&nbsp;我校召开地质资源与地质工程学科、地质工程领域两个硕士学位授权点合格评估会</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;2018-01-19</span>
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!--地图-->
+  <section id=contact style="background-color: rgb(229, 234, 241);">
+    <div class="divider-new ">
+      <div layout="column" layout-gt-xs="row">
+        <div flex="30">
+          <md-card class="md-whiteframe-9dp ">
+            <div id="wrap" class="my-map">
+              <div id="mapContainer"></div>
+            </div>
+          </md-card>
+          <br>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <style>
+    .card-block ul li a {
+      color: black;
+    }
+
+    .card-block ul li a :hover {
+      color: crimson;
+    }
+
+    .my-map {
+      margin: 0 auto;
+      width: 100%;
+      height: 500px;
+    }
+
+    .my-map .icon {
+      background: url(http://lbs.amap.com/console/public/show/marker.png) no-repeat;
+    }
+
+    .my-map .icon-flg {
+      height: 32px;
+      width: 29px;
+    }
+
+    .my-map .icon-flg-red {
+      background-position: -65px -5px;
+    }
+
+    .amap-container {
+      height: 100%;
+    }
+
+    .carousel-indicators {
+      padding: 0 auto;
+    }
+
+  </style>
+
+  <script>
+    !function () {
+      var infoWindow, map, level = 8,
+        center = {
+          lng: 114.489458,
+          lat: 36.5743251
+        },
+        features = [{
+          type: "Marker",
+          name: "河北工程大学",
+          desc: "河北工程大学主校区",
+          color: "red",
+          icon: "flg",
+          offset: {
+            x: -12,
+            y: -26
+          },
+          lnglat: {
+            lng: 114.489458,
+            lat: 36.5743251
+          }
+        }];
+
+      function loadFeatures() {
+        for (var feature, data, i = 0, len = features.length, j, jl, path; i < len; i++) {
+          data = features[i];
+          switch (data.type) {
+            case "Marker":
+              feature = new AMap.Marker({
+                map: map,
+                position: new AMap.LngLat(data.lnglat.lng, data.lnglat.lat),
+                zIndex: 3,
+                extData: data,
+                offset: new AMap.Pixel(data.offset.x, data.offset.y),
+                title: data.name,
+                content: '<div class="icon icon-' + data.icon + ' icon-' + data.icon + '-' + data.color + '"></div>'
+              });
+              break;
+            case "Polyline":
+              for (j = 0, jl = data.lnglat.length, path = []; j < jl; j++) {
+                path.push(new AMap.LngLat(data.lnglat[j].lng, data.lnglat[j].lat));
+              }
+              feature = new AMap.Polyline({
+                map: map,
+                path: path,
+                extData: data,
+                zIndex: 2,
+                strokeWeight: data.strokeWeight,
+                strokeColor: data.strokeColor,
+                strokeOpacity: data.strokeOpacity
+              });
+              break;
+            case "Polygon":
+              for (j = 0, jl = data.lnglat.length, path = []; j < jl; j++) {
+                path.push(new AMap.LngLat(data.lnglat[j].lng, data.lnglat[j].lat));
+              }
+              feature = new AMap.Polygon({
+                map: map,
+                path: path,
+                extData: data,
+                zIndex: 1,
+                strokeWeight: data.strokeWeight,
+                strokeColor: data.strokeColor,
+                strokeOpacity: data.strokeOpacity,
+                fillColor: data.fillColor,
+                fillOpacity: data.fillOpacity
+              });
+              break;
+            default:
+              feature = null;
+          }
+          if (feature) {
+            AMap.event.addListener(feature, "click", mapFeatureClick);
+          }
+        }
+      }
+
+      function mapFeatureClick(e) {
+        if (!infoWindow) {
+          infoWindow = new AMap.InfoWindow({
+            autoMove: true
+          });
+        }
+        var extData = e.target.getExtData();
+        infoWindow.setContent("<h5>" + extData.name + "</h5><div>" + extData.desc + "</div>");
+        infoWindow.open(map, e.lnglat);
+      }
+
+      map = new AMap.Map("mapContainer", {
+        center: new AMap.LngLat(center.lng, center.lat),
+        level: level,
+        scrollWheel: false
+      });
+
+      loadFeatures();
+
+      map.on('complete', function () {
+        map.plugin(["AMap.ToolBar", "AMap.Scale"], function () {
+          map.addControl(new AMap.ToolBar);
+          map.addControl(new AMap.Scale);
+        });
+      })
+
+    }();
+  </script>
